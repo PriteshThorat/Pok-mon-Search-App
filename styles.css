@@ -1,0 +1,162 @@
+.container {
+    background-color:white;
+    width: 510px;;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  
+  body {
+    color: black;
+    background-color: #192734;
+    margin: 15px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  input {
+    margin: 15px;
+    background-color: #192734;
+    color: white;
+    height: 60px;
+    width: 400px;
+    font-size: 27px;
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    height: 30px;
+    width: 150px;
+    font-size: 24px;
+    background-color: #192734;
+    color: white;
+  }
+  
+  table {
+    border-color: transparent;
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+  
+  td {
+    width: 40%;
+    height: 40px;
+    background-color: #192734;
+  }
+  
+  th {
+    height: 40px;
+    background-color: #192734;
+  }
+  
+  input::placeholder {
+    color: white;
+    background-color: #192734;
+  }
+  
+  .pokemon {
+    height: 250px;
+  }
+  
+  #pokemon-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .left {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+  }
+  
+  .pokemon-details {
+    margin-top: 70px;
+  }
+  
+  .type0 {
+    background-color: #4cb5f5;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #000000;
+    margin: 5px;
+  }
+  
+  .type1 {
+    background-color: #ffce30;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #000000;
+    margin: 15px;
+  }
+  
+  #types {
+    margin: 15px;
+    text-align: left;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+    width: 310px;
+    }
+  
+    body {
+    margin: 5px;
+    }
+  
+    input {
+    margin: 5px;
+    height: 40px;
+    width: 250px;
+    font-size: 17px;
+    }
+  
+    button {
+    height: 20px;
+    width: 100px;
+    font-size: 14px;
+    }
+  
+    table {
+    width: 99%;
+    font-size: 17px;
+    margin-bottom: 2px;
+    }
+  
+    .pokemon {
+    height: 150px;
+    }
+  
+    #pokemon-img {
+    width: 100px;
+    height: 100px;
+    }
+  
+    .left {
+    font-size: 20px;
+    margin-left: 5px;
+    }
+  
+    .type0 {
+    font-size: 15px;
+    margin: 2px;
+    }
+  
+    .type1 {
+    font-size: 15px;
+    margin: 2px;
+    }
+  }
