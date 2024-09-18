@@ -32,7 +32,7 @@ A simple web app to search for Pokémon by name or ID, displaying relevant infor
 ## API Reference
 This app uses the PokéAPI Proxy, a free RESTful API that provides information about Pokémon.
 
-- Base URL: https://pokeapi-proxy.freecodecamp.rocks/api/
+- Base URL: [https://pokeapi-proxy.freecodecamp.rocks/api/pokemon](https://pokeapi-proxy.freecodecamp.rocks/api/pokemon)
 - Endpoints used: /pokemon/{id or name}: Fetches details about a Pokémon by ID or name.
 ## Example
 Searching for "Pikachu" returns:
