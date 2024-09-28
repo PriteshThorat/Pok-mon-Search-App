@@ -42,3 +42,6 @@ Searching for "Pikachu" returns:
 - Type(s): Electric
 - Abilities: Static, Lightning Rod 
 - Base stats: HP: 35, Attack: 55, Defense: 40, etc.
+
+## Deployed Website
+You can access the deployed website [here](https://priteshthorat.github.io/Pok-mon-Search-App/).
