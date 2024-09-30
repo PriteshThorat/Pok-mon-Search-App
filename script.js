@@ -64,7 +64,7 @@ const details = (url) => {
     i = 1 - i;
 
     typesText.innerHTML += `
-    <button class="type${i}">${name.toUpperCase()}</button>
+    <button class="type${i} typeChild">${name.toUpperCase()}</button>
     `;
   });
 
